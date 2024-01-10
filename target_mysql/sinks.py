@@ -400,7 +400,7 @@ class MySQLConnector(SQLConnector):
             current_type_length = 0
             if isinstance(current_type, sqlalchemy.types.TEXT) and current_type.length is None:
                 current_type_length = 65535
-            elif hasattr(current_type, 'length'):
+            elif hasattr(current_type, 'length') and current_type.length is not None:
                 current_type_length = current_type.length
 
             if isinstance(generic_type, type):
