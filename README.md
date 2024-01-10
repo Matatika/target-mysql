@@ -1,6 +1,6 @@
 # target-mysql
 
-`target-mysql` is a Singer target for Oracle, Build with the [Meltano Target SDK](https://sdk.meltano.com).
+`target-mysql` is a Singer target for MySql, Build with the [Meltano Target SDK](https://sdk.meltano.com).
 
 
 
